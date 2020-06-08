@@ -1,0 +1,83 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  h1{
+      margin: 30px auto 30px;
+  }
+
+  .navbar-brand h1 { /* Restaurant name */
+    color: #ff4800;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+
+  #chicken-tile {
+    height: 1000px;
+    width: 90%;
+    margin: 0 auto 50px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+  }
+
+  #chicken-tile p{
+    padding: 5px;
+    font-size: 20px;
+    height: 1000px;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  #chicken-tile span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .5;
+  }
